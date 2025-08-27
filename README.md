@@ -1,76 +1,71 @@
-# Courses Data Analysis & Dashboard Project
+<img width="1142" height="645" alt="image" src="https://github.com/user-attachments/assets/fb5c7668-a958-435f-829e-4179875f4bab" />
 
-## 📌 Project Overview
-This project focuses on analyzing a dataset of online courses to extract meaningful insights about **subjects distribution, pricing models, difficulty levels, engagement trends, and revenue proxies**.  
-The analysis was conducted using Python (Pandas, NumPy, Matplotlib, Seaborn) and the results were visualized in an **interactive dashboard** for better understanding.  
-
-The aim is to explore how different factors (price, subject, difficulty, duration, lectures) affect **student enrollment, engagement, and potential profitability**.  
-
----
-
-## Dataset Description
-The dataset spans **6 years and 3 months (2011–2017)** and contains **3,667 unique courses** (after removing duplicates).  
-
-### Features:
-- **Course Id** → Unique identifier for each course  
-- **Course-Title** → Title of the course  
-- **Is Paid** → Indicates whether the course is Free or Paid  
-- **Level** → Difficulty level of the course (Beginner, Intermediate, Expert, All Levels)  
-- **Published Date** → Date when the course was published  
-- **Pulished Timestamp** → Unix timestamp of the published date  
-- **Subject** → Main subject area (Web Development, Business Finance, Graphic Design, Musical Instruments)  
-- **URL1** → Course link  
-- **CONTENT DURATION in HR's** → Duration of the course in hours  
-- **Num Lectures** → Number of lectures included in the course  
-- **Price** → Price of the course (if paid)  
-- **Reviews** → Number of reviews received  
-- **Students** → Number of students enrolled  
-
----
-
-## Key Insights
-- **Subjects Distribution**:  
-  - Web Development (32.7%) and Business Finance (32.5%) dominate the dataset.  
-  - Graphic Design (16.4%) and Musical Instruments (18.4%) are smaller but notable.
-  - 
-- **Difficulty Levels**:  
-  - 52% are "All Levels" courses.  
-  - 35% Beginner, 11% Intermediate, and only 1.6% Expert.  
-
-- **Pricing**:  
-  - 91.5% of courses are **Paid**, while just 8.4% are Free.  
-  - Despite price variations, students still prefer **paid courses**.  
+# Data Skool Dashboard
+<table>
+<tr>
+<td>
+  An interactive dashboard for exploring, analyzing, and visualizing data.  
+  It allows users to filter, aggregate, and interpret datasets to uncover insights,  
+  track trends, and make data-driven decisions.  
+  The dashboard provides clear visual storytelling and supports business intelligence use cases.  
+</td>
+</tr>
+</table>
 
 
-- **Time Trends**:  
-  - Number of published courses peaked in **2015–2016**, then declined in 2017.  
+## Demo
+Here is a video demo snapshot :  
+[https://DataSkool-courses/](https://www.linkedin.com/posts/fatma-amr1_dataskool-datachallenge-dataanalysis-activity-7366336550541889536-285i?utm_source=share&utm_medium=member_desktop&rcm=ACoAADUA8AIBl7kxp-5EGTuahzUv3YlmCbKyDL0)
 
-- **Engagement**:  
-  - Review-to-student ratio is relatively low, meaning **few students leave feedback**.  
 
-- **Revenue Estimates (Price × Students)**:  
-  - **Web Development** and **Business Finance** are the most profitable categories.  
+## Dashboard Sections
 
-- **Content Structure**:  
-  - Course duration (hours) is positively correlated with number of lectures,  
-    but correlation with number of students is weak.  
+### Landing Page
+The dashboard starts with a clean and interactive landing page for dataset selection.
 
----
+<img width="1151" height="645" alt="image" src="https://github.com/user-attachments/assets/77896f8c-099f-45c6-a8b8-265ff2d172e2" />
 
-## Dashboard
-An **interactive dashboard** was created to visualize:  
-- Courses distribution by subject  
-- Trends over time  
-- Free vs Paid courses  
-- Difficulty levels  
-- Estimated revenues  
-- Student engagement metrics  
 
-<img width="1015" height="554" alt="image" src="https://github.com/user-attachments/assets/0eb503b0-67e5-48dd-ada0-d94c5dc33d0a" />
+### Data Filtering
+Users can input queries, apply filters, and select dimensions/metrics to explore.
 
----
+<img width="1147" height="645" alt="image" src="https://github.com/user-attachments/assets/09afbe74-44e1-4245-9845-8d15f869b406" />
 
-## Tech Stack
-- **Python**: Pandas, NumPy, Matplotlib, Seaborn  
-- **Data Cleaning & EDA**: Jupyter Notebook  
-- **Dashboard**: Power BI
+
+### Visualizations
+Interactive charts to analyze patterns and distributions across time and categories.
+
+<img width="1134" height="636" alt="image" src="https://github.com/user-attachments/assets/d5d4362e-6279-4ad5-8616-614b7469980a" />
+
+<img width="1146" height="635" alt="image" src="https://github.com/user-attachments/assets/b6a4ef51-9750-4865-adee-c5d4e2e494e2" />
+
+<img width="1127" height="649" alt="image" src="https://github.com/user-attachments/assets/cd6d45e9-18fb-42cc-9657-ff9fea765b98" />
+
+<img width="1147" height="653" alt="image" src="https://github.com/user-attachments/assets/dffe4246-8ca1-46bd-a573-cc1eec4b8b0c" />
+
+
+
+
+## Mobile support
+The Dashboard is responsive and works on different devices and OS's.
+
+<img width="1049" height="734" alt="image" src="https://github.com/user-attachments/assets/46e64257-ce58-4053-b907-4468b046ead8" />
+
+
+
+
+## Built with 
+- **Python (Pandas, NumPy)** – Data cleaning, processing, and aggregation.  
+- **Matplotlib / Seaborn** – Interactive and static data visualization.  
+- **Dash / Streamlit / Power BI** – Dashboard creation and interactivity.  
+
+
+## Insights
+- Performed **ETL (Extract, Transform, Load)** on raw datasets.  
+- Built a set of **KPIs and interactive charts** to monitor trends.  
+- Highlighted **missing values, distributions, and correlations**.  
+- Enabled **drill-down exploration** for deeper analysis.  
+- Produced **business insights** to guide decision-making.  
+
+
+[Fatma Amr ](https://github.com/FatmaAMR) | DataSkool Project  
